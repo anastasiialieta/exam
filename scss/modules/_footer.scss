@@ -1,0 +1,36 @@
+.footer {
+	height: 260px;
+	background: $footer;
+	&__container {
+	text-align: center;
+	padding-top: 110px;
+}
+&__desc {
+	padding-top: 14px;
+}
+&__icon {
+	padding-top: 25px;
+	color: #fff;
+	font-size: 17px;
+	width: 10%;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 45%;
+}
+ 
+.icon-linkedin {
+	color: $blue;
+}
+&__logo {
+	font: 400 24px $font;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #fff;
+}
+&__desc {
+	font: 400 16px $font;
+	letter-spacing: 3px;
+	
+	color: #fff;
+}
+}

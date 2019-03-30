@@ -1,0 +1,40 @@
+.travel {
+	background: url('../images/travel.jpg') no-repeat top center;
+		height: 700px;
+		&__main {
+	display: flex;
+	justify-content: center;
+	padding-top: 110px;
+	
+}
+&__title {
+	display: flex;
+	justify-content: center;
+	padding-top: 90px;
+	font: 400 36px $two;
+	color: #fff;
+}
+
+&__desc1 {
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	font: 400 16px $font;
+	color: #fff;
+	line-height: 26px;
+	
+}
+&__desc {
+	font: 400 20px $font;
+	color: #fff;
+	text-transform: uppercase;
+}
+&__main1 {
+	background: #333333;
+	padding: 45px 55px 0 60px;
+}
+.icon-quote {
+	color: $blue;
+	font-size: 24px;
+}
+}

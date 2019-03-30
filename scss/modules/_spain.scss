@@ -1,0 +1,104 @@
+.spain {
+	background: url('../images/spain-1.jpg') no-repeat top center;
+		height: 700px;
+		&__submit {
+height: 60px;
+	width: 40%;
+	background-color: #5474fd;
+	font: 400 14px Aleo, serif;
+	letter-spacing: 3px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 40px;
+	background: #5474fd;
+	margin-left: 30px;
+	
+}
+&__submit:hover {
+	background: #496bfe;
+}
+&__main {
+	background: rgb(45,39,40, 0.9);
+	height: 350px;
+	padding-top: 45px;
+	
+}
+&__container {
+	padding-left: 18%;
+	padding-top: 200px;
+}
+&__title {
+	margin-left: 30px;
+	font: 400 20px $font;
+	letter-spacing: 2px;
+	color: #fff;
+}
+&__desc {
+margin-left: 30px;	
+margin-top: 25px;
+font: 400 20px $font;
+text-transform: uppercase;
+	color: #fff;
+} 
+&__desc1 {
+	margin-left: 30px;	
+	margin-top: 17px;
+	font: 400 16px $font;
+	line-height: 24px;
+	color: #fff;
+}
+}
+
+
+.madrid {
+	background: url('../images/spain-2.jpg') no-repeat top center;
+		height: 700px;
+		
+		&__submit {
+  height: 60px;
+	width: 40%;
+	background-color: #5474fd;
+	font: 400 14px Aleo, serif;
+	letter-spacing: 3px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 40px;
+	background: #5474fd;
+	margin-left: 30px;
+	
+}
+&__submit:hover {
+	background: #496bfe;
+}
+&__main {
+	background: rgb(45,39,40, 0.9);
+	height: 350px;
+	padding-top: 45px;
+	
+}
+&__container {
+	padding-left: 49%;
+	padding-top: 200px;
+}
+&__title {
+	margin-left: 30px;
+	font: 400 20px $font;
+	letter-spacing: 2px;
+	color: #fff;
+}
+&__desc {
+margin-left: 30px;	
+margin-top: 25px;
+font: 400 20px $font;
+text-transform: uppercase;
+	color: #fff;
+} 
+&__desc1 {
+	margin-left: 30px;	
+	margin-top: 17px;
+	font: 400 16px $font;
+	line-height: 24px;
+	color: #fff;
+}
+}
+

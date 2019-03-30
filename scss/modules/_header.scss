@@ -1,0 +1,121 @@
+.header {
+	background: url('../images/header.jpg') no-repeat top center;
+	background-size: cover;
+	height: 100vh;
+	min-height: 745px;
+	text-align: center;
+}
+.main-container {
+	
+}
+.content-wrapper {
+padding-top: 260px;
+}
+.content__title {
+	font: 700 48px 'Josefin Sans', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	
+}
+.content__desc {
+	font: 400 22px 'Josefin Sans', sans-serif;
+	color: #fff;
+	letter-spacing: 5px;
+}
+
+form {
+	padding-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+.content__link {
+	display: block;
+	padding-top: 110px;
+	text-decoration: none;
+	font: 400 14px 'Josefin Sans', sans-serif;
+	color: #fff;
+	letter-spacing: 5px;
+}
+.icon-angle-down {
+	font-size: 24px;
+	color: #fff;
+}
+
+.subscribe__field {
+	font: 400 14px 'Josefin Sans', sans-serif;
+	color: #fff;
+	letter-spacing: 5px;
+	width: 36%;
+	height: 60px;
+	padding-left: 120px;
+}
+
+.subscribe__submit {
+	height: 60px;
+	width: 10%;
+	background-color: #5474fd;
+	font: 400 14px Aleo, serif;
+	letter-spacing: 3px;
+	color: #fff;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	border: 3px solid #fff;	
+	position: relative;
+}
+
+.icon-search {
+	font-size: 24px;
+position: absolute;
+color: #fff;
+right: 28%;
+top: 50.6%;
+}
+
+.header__nav{
+		display: flex;
+		justify-content: space-around;
+		background: #5474fd;
+		height: 80px;
+		padding-top: 40px;
+	}
+	.logo {
+		font: 400 24px $font;
+		color: #fff;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+.menu{
+	width: 52%;
+	display: flex;
+	justify-content: space-around;
+	&__link{
+		position: relative;
+		text-decoration: none;
+	}
+
+	&__link::after{
+		content: '';
+	    border-bottom:  1px solid #fff;
+	  display: block;
+	  width: 0px;
+	  position: absolute;
+	  bottom: -12px;
+		
+	}
+
+	&__link:hover::after,
+	&__link:hover{
+	
+		width: 100%;
+ 	  transition: all .2s linear;
+	}
+
+	&__link{
+		font: 14px Aleo, serif;
+		color:#fff;
+text-transform: uppercase;
+	}
+}
